@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Open Sans - Regular";
+  src: url("./fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans - Bold";
+  src: url("./font/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans - SemiBold";
+  src: url("./font/OpenSans/OpenSans-SemiBold.ttf");
+}
+
+
+* {
+  font-family: "Open Sans - Regular";
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#displayWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#dataInput {
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 2px 3px;
+  margin-bottom: 15px;
+}
+
+#chartWrapper {
+  margin-top: 15px;
+  width: 583px;
+  height: 400px;
+}
+
+#chart {
+  border: 2px solid black;
+  border-radius: 5px;
+}
